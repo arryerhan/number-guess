@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game-panel">
+            <h2 id="counter-alert">Remember you only have 3 attempts !</h2>
+            <h2 class="counter-title">Remaining Attempts</h2>
+            <div class="counter-div">
+                <p class="counter-info">3</p>
+            </div>
+            <h1 class="title">Guess The Number</h1>
+            <p class="info">Guess a Number Between 1 to 15</p>
+            <input type="text" name="guess" id="user-guess" class="user-guess">
+            <button class="btn-guess" id="btn-guess" >Check</button>
+        </div>
+        <p class="info" id="hints"></p>
+        <button class="play-again hidden" id="play-again">Play Again</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
